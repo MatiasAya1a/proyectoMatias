@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(228, 13, 13), rgb(232, 232, 235), rgb(34, 146, 34), rgb(236, 240, 21));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 10s ease-in-out infinite
+}
+
+  
+@keyframes cambiar {
+  0% {
+      background-position: 0 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0 50%;
+  }
+}
+h1{
+  font-size: 100px;
+  text-align: center;
+}
+p{
+  font-size: 50px;
+  text-align: center;
+  
+}
+a{
+  font-size: 50px;
+  text-decoration: rgb(245, 247, 250);
+}

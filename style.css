@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    box-shadow: 0 20px 30px rgba(189, 17, 17, 0.4);
+    background-position: right top;
+    background-attachment: fixed;
+    z-index: 1;
+
+
+
+}
+
+.video1 {
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    z-index: -2;
+    display: grid;
+    top: 0%;
+    left: 130px;
+    padding: 20px;
+    background-color: rgb(198, 209, 37);
+    ;
+    ;
+    box-shadow: 0 20px 30px rgba(189, 17, 17, 0.4);
+    border: 10px inset rgb(161, 179, 216);
+}
+
+.cajadeinicio {
+    height: 200px;
+    color: rgb(4, 6, 34);
+    ;
+    position: relative;
+    left: 40px;
+    top: 100px;
+    display: block;
+    right: 200px;
+    text-shadow: 0 0 5px yellow;
+}
+
+.cajadehistoria {
+    height: 200px;
+    color: rgb(4, 6, 34);
+    ;
+    position: relative;
+    left: 1400px;
+    top: -300px;
+    text-shadow: 0 0 5px yellow;
+
+}
+
+.cajadepersonajes {
+    height: 200px;
+    color: rgb(4, 6, 34);
+    position: relative;
+    left: -20px;
+    top: 5px;
+    text-shadow: 0 0 5px yellow;
+}
+
+.cajadejuegos {
+
+    text-shadow: 0 0 5px yellow;
+    color: rgb(4, 6, 34);
+    position: relative;
+    left: 1420px;
+    top: -80px;
+}
+
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    ;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        ;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+
+    }
+}
+
+b {
+    font-size: 25px;
+    margin: 0px;
+
+
+}
+
+.titulo {
+    margin: 2px;
+    text-align: center;
+    background-color: rgba(8, 5, 5, 0.726);
+    top: -960px;
+    position: relative;
+    box-shadow: 0 20px 30px rgba(189, 17, 17, 0.4)
+}
+
+h1 {
+    padding: 2px;
+    color: #ebe1e1;
+    font-size: 50px;
+    margin: 0;
+    font-family: monospace;
+    text-shadow: 0 0 15px yellow, 0 0 15px yellow, 0 0 30px;
+}
+
+h5 {
+    margin: 50px;
+    color: #ebe1e1;
+    padding: 20px;
+    box-shadow: 0 20px 30px yellow;
+    border: 30px inset rgb(189, 17, 17, 0.4);
+}
+
+h4 {
+    margin: 50px;
+    color: #ebe1e1;
+    padding: 20px;
+    box-shadow: 0 20px 30px yellow;
+    border: 15px inset rgb(189, 17, 17, 0.4);
+}
+
+h6 {
+    margin: 50px;
+    color: #ebe1e1;
+    padding: 20px;
+    box-shadow: 0 20px 30px yellow;
+    border: 15px inset rgb(189, 17, 17, 0.4);
+}
+
+p {
+    margin: 50px;
+    color: #ebe1e1;
+    padding: 20px;
+    box-shadow: 0 20px 30px yellow;
+    border: 15px inset rgb(189, 17, 17, 0.4);
+}
+
+h3 {
+    margin: 50px;
+    color: #ebe1e1;
+    padding: 20px;
+    box-shadow: 0 20px 30px yellow;
+    border: 15px inset rgb(189, 17, 17, 0.4);
+}
